@@ -4,8 +4,8 @@ DDOS defalte是一款免费的用来防御和减轻DDoS攻击。它通过netstat
 #该版对原版进行了错误修复，而且进行了本地化不需要安装的时候下载文件。  
 
 #安装步骤 
-1. 下载 ddos-defalte.tar.gz
-2. tar zxfv ddos-defalte.tar.gz
+1. wget https://raw.githubusercontent.com/miaocloud/fdos/master/ddos-defalte.tar.gz
+2. tar xfv ddos-defalte.tar.gz
 3. cd ddos-defalte
 4. ./install.sh
 5. 安装完毕。
@@ -44,6 +44,7 @@ EMAIL_TO="root"  #封ip,自动发送邮件
 ##### Number of seconds the banned ip should remain in blacklist. 
 BAN_PERIOD=600 
 </pre>
+配置图 ：http://pic.tc.78jt.top/images/2019/01/06/QQ20190106182308f3bb3ac441a91779.png
 
 
 
